@@ -173,8 +173,8 @@ namespace Route_Assignments
 
             List<Book> books = new List<Book>()
         {
-            new("10","Harry Potter",new string[]{"adel","mohamed","kassem"},new DateTime(2004,6,15),1000m),
-            new("20","marvin",new string[]{"kassem","adel","mohamed"},new DateTime(2004,6,15),12000m)
+            new("1","Walter White",new string[]{"Youssef","mahmoud","ElSherbiny"},new DateTime(2004,6,1),1000m),
+            new("2","Sciler",new string[]{"Elsherbiny","Youssef","mahmoud"},new DateTime(2004,6,1),12000m)
         };
             // LibraryEngine.Processboks(books,BookFunctions.GetTitle);
             // LibraryEngine.Processboks(books,BookFunctions.GetAuthors);
@@ -187,18 +187,18 @@ namespace Route_Assignments
 
             #region Q3
             List<int> list = new List<int>() { 1, 2, 3, 4, 5, 5, 5, 8, 9, 10 };
-            List<string> list2 = new List<string>() { "adel", "mohamed", "kassem", "mohamed" };
+            List<string> list2 = new List<string>() { "youssef", "mahmoud", "elsherbiny", "mohamed" };
             Console.WriteLine(Exist(FunctionForPart03.CheckExistElementInt, 5, list));
-            Console.WriteLine(Exist(FunctionForPart03.CheckExistElementString, "adel", list2));
+            Console.WriteLine(Exist(FunctionForPart03.CheckExistElementString, "youssef", list2));
             Console.WriteLine(Find(FunctionForPart03.CheckExistElementInt, 4, list));
-            Console.WriteLine(string.Join(", ", FindAll(FunctionForPart03.CheckExistElementString, "mohamed", list2)));
-            Console.WriteLine(FindIndex(FunctionForPart03.CheckExistElementString, "kassem", list2));
+            Console.WriteLine(string.Join(", ", FindAll(FunctionForPart03.CheckExistElementString, "mahmoud", list2)));
+            Console.WriteLine(FindIndex(FunctionForPart03.CheckExistElementString, "elsherbiny", list2));
             Console.WriteLine(FindLast(FunctionForPart03.CompareElementIntGreater, 5, list));
-            Console.WriteLine(FindLast(FunctionForPart03.CompareElementStringGreater, "adel", list2));
+            Console.WriteLine(FindLast(FunctionForPart03.CompareElementStringGreater, "youssef", list2));
             Console.WriteLine(FindLastIndex(FunctionForPart03.CheckExistElementInt, 5, list));
 
             Console.WriteLine(TrueForAll(FunctionForPart03.TrueForAll, 2, list));
-            Console.WriteLine(TrueForAll(FunctionForPart03.TrueForAll, "adel", list2));
+            Console.WriteLine(TrueForAll(FunctionForPart03.TrueForAll, "youssef", list2));
             #region Exist
 
             bool Exist<T>(Func<T, T, bool> predelegate, T num, List<T> list)
