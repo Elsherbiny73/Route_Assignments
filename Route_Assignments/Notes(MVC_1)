@@ -1,0 +1,41 @@
+* ASP.NET MVC is one of the ASP.NET products based on the Model-View-Controller (MVC) architectural pattern.
+
+* Model: Represents the database table as a class.
+
+* View: Defines the HTML structure for displaying data.
+
+* Controller: Manages request handling and business logic.
+
+!* Controllers must inherit from the Controller class and include public non-static functions known as actions.
+
+* Five main CRUD actions: GetAll, GetById, Update, Delete, Add.
+
+* ==>Asp.Net 
+    	1.MVC (Consumed in Mobile , Fluter , Android , Ios,FronEnd Framework [React Or Angular])
+    	2.Razor Page
+    	3.Web Api
+
+* Two primary web application types: Multiple Page Applications (MPA) and Single Page Applications (SPA).
+
+* ASP.NET Core is a cross-platform framework supporting Windows, Linux, and macOS.
+
+* Internet Information Services (IIS) is the default web server for ASP.NET on Windows.
+
+* Kestrel is an internal web server used in ASP.NET Core applications.
+
+* Reverse Proxy Servers (Apache/Nginx) can be used for better performance and security.
+
+* HTTP is the communication protocol between the client and server.
+
+==>HTTP (Hypertext Transfer Protocol)
+    	is an application protocol for distributed, collaborative, and hypermedia information systems
+
+* HTTP responses include a status code, message, and content type.
+
+* Uniform Resource Identifiers (URIs) consist of URLs and URNs.
+
+* System.Web is the base class library for traditional ASP.NET applications.
+
+* Deployment can be done with IIS for ASP.NET MVC or using Kestrel with a reverse proxy in ASP.NET Core.
+
+* Templates exist for creating empty projects or structured MVC projects with Controllers, Views, and Models folders.
